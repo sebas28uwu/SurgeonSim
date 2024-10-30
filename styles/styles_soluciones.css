@@ -1,0 +1,194 @@
+/* Global Styles */
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans serif;
+}
+.container {
+  margin: auto;
+  padding: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+/* Header */
+.header {
+  background: white;
+}
+.navbar {
+  padding-top: 0.3rem; /* Reduce el espacio superior */
+  padding-bottom: 0.3rem; /* Reduce el espacio inferior */
+}
+.navbar .navbar-brand img {
+  max-width: 75px;
+  height: auto;
+}
+
+.navbar-nav .nav-item .boton {
+  background-color: transparent;
+  color: #52878e;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .boton:hover {
+  background-color: #1b3f45;
+  color: white;
+  border-color: transparent;
+}
+
+/* Hero Section */
+.sectionSimulador-background {
+  background-color: #1b3a4b;
+  color: #154457;
+  padding: 60px 0;
+}
+
+.hero-content {
+  margin-top: 20px;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 28px;
+}
+
+.hero-description {
+  font-size: 20px;
+}
+
+.sectionSimulador-image {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.boton_inciarAhora {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton_inciarAhora:hover {
+  background-color: #1b3f45;
+}
+
+/* Section 2 */
+.sectionBiblioteca-background {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.sectionBiblioteca-text1 {
+  font-size: 40px;
+  color: #154457;
+  margin-bottom: 15px;
+}
+
+.sectionBiblioteca-text2 {
+  font-size: 24px;
+  color: #262626;
+}
+
+.boton_explorar button {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton_explorar button:hover {
+  background-color: #1b3f45;
+}
+
+.footer-background {
+  background-color: #154457;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-top: auto;
+  background-repeat: no-repeat;
+}
+
+/* Image Resizing */
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 50px;
+}
+/* Links in Header */
+.header a {
+  text-decoration: none;
+}
+/* Utility Classes */
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item .boton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .sectionSimulador-image {
+    height: 300px;
+  }
+
+  .boton_inciarAhora {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .sectionBiblioteca-text1 {
+    font-size: 32px;
+  }
+
+  .sectionBiblioteca-text2 {
+    font-size: 18px;
+  }
+
+  .boton_explorar button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

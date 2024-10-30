@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-48x48.png" sizes="48x48" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediAR</title>
+
+    <!-- Fuente IBM Plex Sans -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Boostrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/styles_biblioteca.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+
+                <a class='navbar-brand' href='/'>
+                    <img src="img/logo.png" alt="Logo MEdiAr" width="75px" height="auto" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a aria-current='page' class='nav-link active' href='index.html'><button
+                                    class="boton">Inicio</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-current='page' class='nav-link active' href='SOLUCIONES.html'><button
+                                    class="boton">Soluciones</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-current='page' class='nav-link active' href='CONTACTANOS.html'><button
+                                    class="boton">Contáctanos</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- CUERPO -->
+    <!-- Sección 1 -->
+    <section class="sectionCirugia-background mb-5">
+        <div class="container">
+            <h2 class="biblioteca-title">Biblioteca</h2> <!-- Título nuevo centrado -->
+            <div class="row align-items-center">
+                <!-- Columna de imagen (a la izquierda) -->
+                <div class="col-lg-6 text-lg-start order-md-1">
+                    <img src="img/imagenCirugias.jpg" alt="Imagen 2" class="sectionCirugia-image">
+                </div>
+                <!-- Columna de texto (a la derecha) -->
+                <div class="hero-content col-md-6 text-center text-lg-start order-md-2" style="color: #2c2c2c;">
+                    <h1 class="hero-title">Cirugías grabadas</h1>
+                    <p class="hero-description">
+                        Navega en el catálogo de cirugías grabadas con fines educativos. Haga click en el
+                        siguiente botón para dirigirse al catálogo de videos en 360º.
+                    </p>
+                    <!-- Botón alineado a la izquierda del texto -->
+                    <div class="mt-4">
+                        <button class="boton_simulador">Ir a Cirugías Grabadas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Sección 2 -->
+    <section class="sectionMaterial-background">
+        <div class="container mb-4">
+            <div class="row align-items-center">
+                <!-- Texto (a la izquierda) -->
+                <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <h1 class="biblioteca-title"><b>Material Grabado</b></h1> <!-- Cambia a biblioteca-title -->
+                    <h2 class="hero-description"> <!-- Cambia a hero-description -->
+                        Acceda a un amplio catálogo de cirugías realizadas por especialistas dentro del simulador.
+                        Navegue en cámara flotante para una vista en 3D y maneje la velocidad del procedimiento
+                        según su criterio. Haga click en el siguiente botón para acceder al catalogo.
+                    </h2>
+                    <!-- Botón alineado a la izquierda del texto -->
+                    <div class="mt-4">
+                        <a href="#">
+                            <button class="boton_simulador">Ir a Material Grabado</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Imagen (a la derecha) -->
+                <div class="col-lg-6 text-lg-start">
+                    <div class="imagen img">
+                        <img src="img/imagenMaterial.jpg" alt="Imagen 1" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / PIE DE PAGIN -->
+    <footer class="footer">
+        <footer class="footer-background">
+            <div class="container ">
+                <div class="row mt-5 text-white">
+                    <!-- Logo y Contacto -->
+                    <div class="col-md-3">
+                        <img src="img/logo.png" alt="MediAR Logo" style="width: 100px;">
+                        <p class="mt-3" style="text-align: left;">
+                            Contact: <br>
+                            +51 982 123 456<br>
+                            somos.mediar@gmail.com<br>
+                        </p>
+
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-2">
+                        <h5
+                            style="text-decoration-line:underline ; font-family: IBM Plex Sans,sans-serif; text-align: left;">
+                            Quick
+                            Links
+                        </h5>
+                        <ul class="list-unstyled" style="text-align: left;">
+                            <li><a href="#" class="text-white">Sign Up</a></li>
+                            <li><a href="#" class="text-white">About Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Others -->
+                    <div class="col-md-2">
+                        <h5
+                            style="text-decoration-line:underline ; font-family: IBM Plex Sans,sans-serif; text-align: left;">
+                            Others
+                        </h5>
+                        <ul class="list-unstyled" style="text-align: left;">
+                            <li><a href="#" class="text-white">User FAQs</a></li>
+                            <li><a href="#" class="text-white">Contact Us</a></li>
+                            <li><a href="#" class="text-white">Legal</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-white">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="col-md-2">
+                        <h5
+                            style="text-decoration-line:underline ; font-family: IBM Plex Sans,sans-serif; text-align: left;">
+                            Products</h5>
+                        <ul class="list-unstyled" style="text-align: left;">
+                            <li><a href="#" class="text-white">Send</a></li>
+                            <li><a href="#" class="text-white">Receive</a></li>
+                            <li><a href="#" class="text-white">Buy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="col-md-3 p-0" style="text-align: left;">
+
+                        <p>Subscribe to our newsletter and be the first to know about our updates</p>
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="Email Address" aria-label="Email"
+                                style="border-radius: 0%; width: auto;">
+                            <button class="boton_suscribe" type="submit"><b>Subscribe</b></button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+
+                <!-- Texto de derechos reservados a la izquierda -->
+                <p class="mb-0 text-white">&copy; 2020. All rights reserved.</p>
+
+                <!-- Íconos de redes sociales a la derecha -->
+                <div class="mb-5">
+                    <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+
+        </footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
